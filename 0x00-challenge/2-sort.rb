@@ -25,9 +25,7 @@ ARGV.each do |arg|
             is_inserted = true
             break
         end
-    puts "i en while #{i}"
     end
-    puts "i out while #{i}"
     result << i_arg if !is_inserted
 end
 
